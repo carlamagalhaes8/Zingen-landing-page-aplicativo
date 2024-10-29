@@ -17,6 +17,7 @@
 .container { /*vai deinir onde vai conter as coisas na hora de construir o html*/
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    margin-inline: auto;
 }
 
 .desktop-only {
@@ -32,8 +33,16 @@
     display: flex;
 }
 
+.items-center {
+    align-items: center;
+}
+
 .gap-1 {
     gap: 1rem;
+}
+
+.gap-1\.5 {
+    gap: 1.5rem;
 }
 
 .grid {
