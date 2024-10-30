@@ -47,6 +47,7 @@
 
 .grid {
     display: grid;
+    list-style: none; /*eu que modifiquei para tirar os seletores da lista*/
 }
 
 @media (width >= 80em) {
